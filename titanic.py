@@ -29,6 +29,7 @@ def transform_fare(x):
 
 df['who'] = df.apply(transform_fare, axis=1)
 
+#Updating file contents for version 2.
 
 
 
